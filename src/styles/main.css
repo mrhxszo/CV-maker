@@ -1,0 +1,72 @@
+.canvas{
+    display: grid;
+    background-color: beige;
+    position:absolute;
+    height:fit-content;
+    width:50rem;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:  monospace, 'Courier New', Courier;
+    grid-template-rows: 0.1fr 0.4fr 0.5fr 1fr;
+}
+
+.input{
+    height: inherit;
+    width: inherit;
+    border:none;
+    outline: none;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    
+}
+.topic{
+    font-size: 25px;
+}
+
+.header{
+    display: flex;
+    padding: 2%;
+    font-size: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.general{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3%;
+}
+.cv-pic{
+    height:150px;
+    width: 150px;
+}
+.gen-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    padding:2%;
+
+}
+.description-input{
+    height: 50px;
+    width: 95%;
+    resize: none;
+}
+
+.education{
+    padding: 2%;
+
+}
+
+li{
+    list-style-type: none;
+    padding: 0.5%;
+}
