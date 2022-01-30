@@ -42,7 +42,7 @@ import Element from './element';
         }
         return (
           <div className='description'>
-            <Topic name='Skill'/>
+            <Topic name='Skills'/>
             <Skill/>
             {children}
             <div style={{display: 'flex'}}>

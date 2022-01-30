@@ -17,9 +17,25 @@ export default class Detail extends Component{
     }
   
     changeElement(newEl){
-      this.setState({
-        school: newEl.data? newEl.data : this.props.school,
-      });
+
+      switch(newEl.name){
+        case 'first':
+          this.setState({
+            first: newEl.data? newEl.data : this.props.first,
+          });
+          break;
+        case 'second':
+          this.setState({
+            second: newEl.data? newEl.data : this.props.second,
+          });
+          break;
+        case 'third':
+          this.setState({
+            third: newEl.data? newEl.data : this.props.third,
+          });
+          break;
+
+      }
     }
 
     render(){

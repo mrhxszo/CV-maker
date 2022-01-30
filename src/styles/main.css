@@ -1,6 +1,6 @@
 .canvas{
     display: grid;
-    background-color: beige;
+    background-color: #9e9e9e;
     position:absolute;
     height:fit-content;
     width:50rem;
@@ -9,7 +9,7 @@
     margin-left:auto;
     margin-right:auto;
     font-family:  monospace, 'Courier New', Courier;
-    grid-template-rows: 0.1fr 0.4fr 0.5fr 1fr;
+    /* grid-template-rows: 0.1fr 0.4fr 0.4fr 0.4fr 0.4fr; */
 }
 
 .input{
@@ -69,4 +69,8 @@
 li{
     list-style-type: none;
     padding: 0.5%;
+}
+.instruction{
+    padding: 5%;
+    height: 500px;
 }
