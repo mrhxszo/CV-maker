@@ -1,4 +1,4 @@
-This is my first project using react. The design in not very nice but i focused more on learning the basics of react through this project.
+This is my first project using react. The design in not very nice but i focused more on learning the basics of react through this project in a limited time frame.
 
 you can see it here: https://mrhxszo.github.io/CV-maker/
 
